@@ -1,6 +1,7 @@
 antifraud.py under src directory contains the python code for solving the challenge below. No additional libraries, environments or dependencies were used.
 With input data of 3 million records, the program takes a total of ~180 seconds to execute.
 Download the input files (.txt) from the given link in the paymo_input folder.
+The program is designed to skip the streaming records which have insufficient data or data in inconsistent format.
 
 # Table of Contents
 
