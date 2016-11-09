@@ -83,14 +83,14 @@ fstart_time = time.time()																							#Feature allocation start time
 with open(streamFile, 'rt', encoding = "utf-8") as q, open(outFile1, 'w') as r, open(outFile2, 'w') as s, open(outFile3, 'w') as t:
 	sHeader = q.readline().split(', ')																				#Takes the 1st row of csv for header
 	#sReader = csv.reader(q)																						#If using csv module
-	linenum=1																										#To check which lines in stream payment data were short
-	count=0																											#To count the total number of short rows
+	#linenum=1																										#To check which lines in stream payment data were short
+	#count=0																										#To count the total number of short rows
 	for sRow in q:
-		linenum+=1
+		#linenum+=1
 		stempList = sRow.split(', ')
 		if (len(stempList)<4) :																						#If row contains less data than number of headers i.e. short data, then skip that row
 			#print ("line skipped %s" %linenum) 
-			count+=1
+			#count+=1
 			continue																								
 		sId1 = stempList[1]
 		sId2 = stempList[2]
