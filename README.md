@@ -1,4 +1,5 @@
 antifraud.py under src directory contains the python code for solving the challenge below. No additional libraries, environments or dependencies were used.
+With input data of 3 million records, the program takes a total of ~180 seconds to execute.
 
 # Table of Contents
 
