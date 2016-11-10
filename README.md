@@ -4,8 +4,6 @@ With input data of 3 million records, the program takes a total of ~180 seconds 
 
 Download the input files (.txt) from the given link in the paymo_input folder.
 
-The program is designed to skip the streaming records which have insufficient data or data in inconsistent format.
-
 # Table of Contents
 
 1. [Challenge Summary] (README.md#challenge-summary)
